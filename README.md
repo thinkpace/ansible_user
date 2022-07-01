@@ -22,6 +22,11 @@ os:
 
 Password hash can be created with `mkpasswd --method=sha-512`. `shell` is optional, it defaults to `/bin/sh`.
 
+Dependencies
+------------
+
+This role is tested on Ubuntu 20.04 (Focal Fossa).
+
 Example Playbook
 ----------------
 
