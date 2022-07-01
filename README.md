@@ -15,9 +15,9 @@ os:
        username: "user1"
        password: PASSWORDHASH
        shell: "/bin/bash"
-     - user2:
-       username: "tobias"
-       password: PASSWORDHASH
+    - user2:
+      username: "tobias"
+      password: PASSWORDHASH
 ```
 
 Password hash can be created with `mkpasswd --method=sha-512`. `shell` is optional, it defaults to `/bin/sh`.
