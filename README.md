@@ -20,7 +20,7 @@ os:
        password: PASSWORDHASH
 ```
 
-Password hash can be created with `mkpasswd --method=sha-512`. Shell is optional, it defaults to `/bin/sh`.
+Password hash can be created with `mkpasswd --method=sha-512`. `shell` is optional, it defaults to `/bin/sh`.
 
 Example Playbook
 ----------------
