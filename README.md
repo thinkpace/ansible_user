@@ -12,9 +12,9 @@ Role is using existing host variables for respective server which must be define
 os:
   users:
     - user1:
-       username: "user1"
-       password: PASSWORDHASH
-       shell: "/bin/bash"
+      username: "user1"
+      password: PASSWORDHASH
+      shell: "/bin/bash"
     - user2:
       username: "tobias"
       password: PASSWORDHASH
@@ -30,7 +30,7 @@ This role can be used like following:
 ```
     - hosts: servers
       roles:
-         - { role: thinkpace.ansible_user }
+        - { role: thinkpace.ansible_user }
 ```
 
 License
