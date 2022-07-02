@@ -30,6 +30,14 @@ This role is tested on Ubuntu 20.04 (Focal Fossa).
 Example Playbook
 ----------------
 
+Make sure to install this role is installed before using:
+
+`ansible-galaxy install thinkpace.ansible_user`
+
+You can update this role with the --force flag:
+
+`ansible-galaxy install --force thinkpace.ansible_user`
+
 This role can be used like following:
 
 ```
