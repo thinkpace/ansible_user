@@ -5,4 +5,4 @@
     state: present
     password: "{{ item.password }}"
     shell: "{{ item.shell | default('/bin/sh') }}"
-  loop: "{{ hostvars[inventory_hostname].os.users }}"
+  loop: "{{ os.users }}"

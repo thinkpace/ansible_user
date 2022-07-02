@@ -1,0 +1,10 @@
+---
+os:
+  users:
+    - user1:
+      username: "user1"
+      password: PASSWORDHASH
+      shell: "/bin/bash"
+    - user2:
+      username: "user2"
+      password: PASSWORDHASH

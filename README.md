@@ -6,7 +6,7 @@ This is a very simple role to create user accounts.
 Role Variables
 --------------
 
-Role is using existing host variables for respective server which must be defined like that:
+Role is using several variables which must be defined in following structure:
 
 ```
 os:
@@ -21,6 +21,8 @@ os:
 ```
 
 Password hash can be created with `mkpasswd --method=sha-512`. `shell` is optional, it defaults to `/bin/sh`.
+
+See also [vars_sample.yml](vars_sample.yml).
 
 Dependencies
 ------------
