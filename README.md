@@ -1,5 +1,5 @@
 thinkpace.ansible_user
-=========
+======================
 
 This is a very simple role to create user accounts.
 
